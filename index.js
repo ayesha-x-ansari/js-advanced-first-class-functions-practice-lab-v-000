@@ -10,24 +10,25 @@ const drivers = [
 const callback = function (el, i, arr) {
   console.log(el.name);
 };
- 
-drivers.forEach(callback);
 
-function logDriverNames() {  
+
+
+function logDriverNames() {
+  drivers.forEach(callback);
 }
 
 function logDriversByHometown() {
-  
+
 }
 
 function driversByRevenue() {
-  
+
 }
- 
+
 function totalRevenue() {
-  
-} 
+
+}
 
 function averageRevenue() {
-  
-} 
+
+}
