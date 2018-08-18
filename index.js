@@ -1,4 +1,4 @@
-// Code your solution in this file!
+  // Code your solution in this file!
 const drivers = [
   { name: 'Bobby',   hometown: 'Pittsburgh',  revenue: 3000 },
   { name: 'Sally',   hometown: 'New York',    revenue: 2000 },
@@ -46,8 +46,11 @@ const reduceRevenue = function (total, el, i, arr) {
   console.log("The current element's revenue is:", el.revenue);
   console.log("The current total is:", total  + el.revenue);
 
-  return total + el.revenue;
+  if (i ====  drivers.lenght -1) {
+    console.log("The current total isSSSS:", total);
+    return total ;
 
+  }
 };
 
 function totalRevenue() {
