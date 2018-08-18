@@ -16,7 +16,6 @@ function logDriverNames() {
   drivers.forEach(callback);
 }
 
-driversTown  = 'Pittsburgh'
 function logDriversByHometown(drivers, driversTown) {
   if (drivers.hometown === driversTown) {
     console.log(drivers.name);
