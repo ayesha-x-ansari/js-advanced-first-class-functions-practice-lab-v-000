@@ -17,9 +17,12 @@ function logDriverNames() {
 }
 
 function logDriversByHometown(drivers, driversTown) {
-  if (drivers.hometown === driversTown) {
-    console.log(drivers.name);
-  }
+  const callback = function (el, i, arr) {
+    if (el.hometown === driversTown) {
+      console.log(el.name);
+    }
+  };
+  drivers.forEach(callback);
 }
 
 function driversByRevenue() {
