@@ -16,7 +16,7 @@ function logDriverNames() {
   drivers.forEach(callback);
 }
 
-const cb = function (el, i, arr) {
+const cb = function (el, i, arr, driversTown) {
   if el.hometown === driversTown
     console.log(el.name);
   end
@@ -25,7 +25,6 @@ const cb = function (el, i, arr) {
 
 function logDriversByHometown(driversTown) {
   drivers.forEach(cb);
-
 }
 
 
