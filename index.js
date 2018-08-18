@@ -24,8 +24,8 @@ const cb = function (el, i, arr, driversTown) {
 
 
 function logDriversByHometown(drivers, driversTown) {
-  if el.hometown === driversTown
-    console.log(el.name);
+  if drivers.hometown === driversTown
+    console.log(drivers.name);
   end
 }
 
