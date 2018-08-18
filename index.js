@@ -43,7 +43,7 @@ const reduceRevenue = function (agg, el, i, arr) {
   console.log("The current element's name is:", el.name);
   console.log("The current element's revenue is:", el.revenue);
   console.log("The current total is:", el.revenue);
-  console.log("The current total is:", agg.totalRevenu);
+  console.log("The current total is:", agg);
 
   return agg  + el.revenue;
 
