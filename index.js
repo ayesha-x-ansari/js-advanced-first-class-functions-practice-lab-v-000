@@ -26,7 +26,6 @@ function logDriversByHometown(drivers, driversTown) {
 
 function driversByRevenue() {
   newDrivers = [...drivers]
-
   newDrivers.sort(function (a, b) {
     return a.revenue - b.revenue })
   return newDrivers
@@ -34,7 +33,7 @@ function driversByRevenue() {
 
 function driversByName () {
   newDrivers = [...drivers]
-  newdrivers.sort(function (a, b) {
+  newDrivers.sort(function (a, b) {
    return a.name.localeCompare(b.name);
 });
   return newDrivers
