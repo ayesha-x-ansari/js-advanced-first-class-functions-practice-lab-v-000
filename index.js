@@ -45,11 +45,7 @@ const reduceRevenue = function (total, el, i, arr) {
   console.log("The current element's name is:", el.name);
   console.log("The current element's revenue is:", el.revenue);
   console.log("The current total is:", total  + el.revenue);
-
-  if (i ====  drivers.length - 1) {
-    console.log("The current total isSSSS:", total);
-    return total ;
-  }
+      return total ;
 };
 
 function totalRevenue() {
@@ -59,3 +55,4 @@ function totalRevenue() {
 function averageRevenue() {
 
 }
+  
