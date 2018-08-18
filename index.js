@@ -40,12 +40,10 @@ function driversByName () {
 }
 
 const reduceRevenue = function (total, el, i, arr) {
-   const total = 0
-
   console.log("The current element's name is:", el.name);
   console.log("The current element's revenue is:", el.revenue);
   console.log("The current total is:", total  + el.revenue);
-      return total ;
+
 };
 
 function totalRevenue() {
