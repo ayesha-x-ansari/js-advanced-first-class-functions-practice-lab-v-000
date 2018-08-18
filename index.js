@@ -17,7 +17,7 @@ function logDriverNames() {
 }
 
 const cb = function (el, i, arr, driversTown) {
-  if el.hometown === driversTown
+  if (el.hometown === driversTown)
     console.log(el.name);
   end
 };
