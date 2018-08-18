@@ -52,7 +52,7 @@ const reduceRevenue = function (agg, el, i, arr) {
 
 function totalRevenue() {
 
- total =   drivers.reduce(reduceRevenue, {totalRevenu: 0 });
+ drivers.reduce(reduceRevenue, {totalRevenu: 0 });
 
 }
 
