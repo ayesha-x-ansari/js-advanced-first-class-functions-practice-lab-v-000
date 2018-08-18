@@ -23,11 +23,11 @@ const cb = function (el, i, arr, driversTown) {
 };
 
 
-function logDriversByHometown(driversTown) {
-  drivers.forEach(cb);
+function logDriversByHometown(drivers, driversTown) {
+  if el.hometown === driversTown
+    console.log(el.name);
+  end
 }
-
-
 
 function driversByRevenue() {
 
