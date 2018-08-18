@@ -16,14 +16,6 @@ function logDriverNames() {
   drivers.forEach(callback);
 }
 
-function logDriversByHometown(driversTown) {
-  const callback = function (el, i, arr) {
-    if el.hometown === driversTown
-      console.log(el.name);
-    end
-  };
-
-}
 
 function driversByRevenue() {
 
