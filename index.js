@@ -25,7 +25,9 @@ function logDriversByHometown(drivers, driversTown) {
 }
 
 function driversByRevenue() {
-  drivers.sort(function (a, b) {
+  newDrivers = [...drivers]
+
+  newDrivers.sort(function (a, b) {
     return a.revenue - b.revenue })
 }
 
@@ -36,3 +38,4 @@ function totalRevenue() {
 function averageRevenue() {
 
 }
+  
