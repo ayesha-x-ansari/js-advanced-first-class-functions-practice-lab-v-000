@@ -11,7 +11,6 @@ const callback = function (el, i, arr) {
   console.log(el.name);
 };
 
-
 function logDriverNames() {
   drivers.forEach(callback);
 }
@@ -26,7 +25,8 @@ function logDriversByHometown(drivers, driversTown) {
 }
 
 function driversByRevenue() {
-
+  drivers.sort(function (a, b) {
+    return a.revenue - b.revenue })
 }
 
 function totalRevenue() {
