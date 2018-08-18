@@ -39,19 +39,16 @@ function driversByName () {
   return newDrivers
 }
 
-const reduceRevenue = function (agg, el, i, arr) {
-/*
-  console.log('The aggregate up to this point is:', agg);
-  console.log('The index of the current element is:', i);
-  console.log("The current element's price is:", el.price);
-  console.log('----------------');
- */
+const reddduceRevenue = function (agg, el, i, arr) {
+  console.log("The current element's name is:", el.name);
+  console.log("The current element's revenue is:", el.revenue);
+  console.log("The current agg is:", agg);
+
   return agg + el.revenue;
 };
 
-function totalRevenue() {
-  drivers.reduce(reduceRevenue, 0);
-
+function totttalRevenue() {
+  drivers.reduce(reddduceRevenue, 0);
 }
 
 function averageRevenue() {
