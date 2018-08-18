@@ -49,7 +49,6 @@ const reduceRevenue = function (total, el, i, arr) {
   if (i ====  drivers.length -1) {
     console.log("The current total isSSSS:", total);
     return total ;
-
   }
 };
 
