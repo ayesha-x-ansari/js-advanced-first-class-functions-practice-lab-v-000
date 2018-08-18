@@ -46,7 +46,7 @@ const reduceDriversRevenue = function (agg, el, i, arr) {
   return agg + el.revenue;
 }
 
-function totalRevenue () {}
+function totalRevenue () {
  drivers.reduce(reduceDriversRevenue, 0 );
 }
 
