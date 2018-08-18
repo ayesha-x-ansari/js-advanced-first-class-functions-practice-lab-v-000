@@ -45,14 +45,14 @@ const reduceRevenue = function (agg, el, i, arr) {
   console.log("The current total is:", el.revenue);
   console.log("The current total is:", agg.totalRevenu);
 
-  return agg.totalRevenu + el.revenue;
+  return agg  + el.revenue;
 
 
 };
 
 function totalRevenue() {
 
- drivers.reduce(reduceRevenue, {totalRevenu: 0 });
+ drivers.reduce(reduceRevenue, 0 );
 
 }
 
